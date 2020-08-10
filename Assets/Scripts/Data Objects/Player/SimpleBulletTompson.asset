@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430f505dc2f0aab408ecd5d0cd5170ac, type: 3}
+  m_Name: SimpleBulletTompson
+  m_EditorClassIdentifier: 
+  coolDown: 0.1
+  range: 20
+  minDamage: 2
+  maxDamage: 7
+  criticalMultiplier: 1.5
+  criticalChance: 0.2

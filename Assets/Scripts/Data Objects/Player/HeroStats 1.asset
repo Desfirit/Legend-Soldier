@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842ae0e15e024914fb78281e2b8065f8, type: 3}
+  m_Name: HeroStats 1
+  m_EditorClassIdentifier: 
+  isHero: 1
+  maxHealth: 100
+  currentHealth: 100
+  currentGold: 501
+  currentGem: 10
+  baseDamage: 2
+  currentDamage: 2
+  baseResistance: 0
+  currentResistance: 0
+  charExperience: 0
+  charLevel: 1
+  charLevels:
+  - maxHealth: 100
+    baseDamage: 2
+    baseResistance: 2
+    experienceRequirement: 0
+  - maxHealth: 110
+    baseDamage: 4
+    baseResistance: 4
+    experienceRequirement: 200
+  - maxHealth: 120
+    baseDamage: 7
+    baseResistance: 7
+    experienceRequirement: 400
+  - maxHealth: 140
+    baseDamage: 10
+    baseResistance: 10
+    experienceRequirement: 800
+  - maxHealth: 160
+    baseDamage: 15
+    baseResistance: 15
+    experienceRequirement: 1600
+  - maxHealth: 170
+    baseDamage: 17
+    baseResistance: 17
+    experienceRequirement: 3200
+  - maxHealth: 175
+    baseDamage: 18
+    baseResistance: 18
+    experienceRequirement: 6400
+  - maxHealth: 180
+    baseDamage: 19
+    baseResistance: 19
+    experienceRequirement: 8000
+  - maxHealth: 200
+    baseDamage: 21
+    baseResistance: 21
+    experienceRequirement: 10000
+  - maxHealth: 220
+    baseDamage: 25
+    baseResistance: 25
+    experienceRequirement: 20000
